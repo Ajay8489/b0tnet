@@ -69,7 +69,7 @@ def main():
 			try:
 				url = sin.split()[1]
 				time = sin.split()[2]
-				os.system(f' node ddos.js {url} {time} 120 10 8')
+				os.system(f' node ddos.js {url} {time} 10 8')
 				os.system ("clear")
 			except ValueError:
 				main()
